@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 use sqlx::{Connection, PgPool};
+=======
+use sqlx::PgPool;
+>>>>>>> ea5522b (Fix clippy errors)
 use std::net::TcpListener;
 use zero2prod::{configuration::get_configuration, startup::run};
 
